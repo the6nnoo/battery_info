@@ -27,6 +27,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 33
 
+    namespace = 'com.igrik12.battery_info'
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
